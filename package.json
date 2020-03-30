@@ -1,0 +1,27 @@
+{
+  "name": "fullstack-react-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate:types": "graphql-codegen",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulysset/fullstack-lesson-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulysset/fullstack-lesson-1/issues"
+  },
+  "homepage": "https://github.com/ulysset/fullstack-lesson-1#readme",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.13.1",
+    "@graphql-codegen/typescript": "^1.13.1",
+    "@graphql-codegen/typescript-operations": "^1.13.1",
+    "@graphql-codegen/typescript-react-apollo": "^1.13.1",
+    "@graphql-codegen/typescript-resolvers": "^1.13.1"
+  }
+}
